@@ -1,0 +1,5 @@
+a = float(input("please enter value of a:\t"))
+b = float(input("please enter value of b:\t"))
+returnining = abs(a-b) > 0.01
+print(returnining)
+
