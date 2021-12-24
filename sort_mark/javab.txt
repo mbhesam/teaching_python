@@ -1,0 +1,14 @@
+with open("output.txt" , "r") as reader:
+    reader.readline()
+    lines = reader.readlines()
+    name = []
+    mark = []
+    for i in lines:
+        i.strip()
+        name.append(i.split(" ")[0])
+        mark.append(int(i.split(" ")[-1]))
+    sorted_mark = sorted(mark,reverse=True)
+    for i in sorted_mark:
+        ind = mark.index(i)
+        print(name[ind])
+
