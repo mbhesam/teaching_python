@@ -10,5 +10,15 @@
 ورودی : tehran
 خروجی : not palindrom
 
+
+
+
+
+
+
+
+
+
+
 ورودی :UmU
 خروجی : palindrom
